@@ -1,7 +1,7 @@
 Scripting Challenge
 ==============
 
-Challenge:
+<b>Challenge:</b>
 
 I was given an ip address and port number to connect to an application on a remote server. Using netcat to connect to the server it returned a message 'Decode these and tell me what they say' and a 800 - 1000 byte string. After waiting for about 1 second it output 'too slow' or after entering some characters it output 'nope'. Upon further inspection, after decodeing and returning the solution, the application sends you another string to decode, and this seems to go on indefinetly. 
 
@@ -11,13 +11,13 @@ I was given an ip address and port number to connect to an application on a remo
 		Too slow
 
 
-Initial Thoughts: 
+<b>Initial Thoughts: </b>
 
 Hased Strings (md5, sha1, sha1, etc...)
 Encoded Strings (Hex, base64, etc...)
 
 
-Solution:
+<b>Solution:</b>
 
 <i>The script I used to complete the challenge is in this repository: scripting.py</i>
 
