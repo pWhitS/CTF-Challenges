@@ -13,7 +13,7 @@ I was given an ip address and port number to connect to an application on a remo
 
 <b>Initial Thoughts: </b>
 
-Hased Strings (md5, sha1, sha1, etc...)
+Hased Strings (md5, sha1, sha1, etc...) <br>
 Encoded Strings (Hex, base64, etc...)
 
 
