@@ -12,7 +12,7 @@ I was given an ip address and port number to connect to an application on a remo
 
 <b>Initial Thoughts: </b>
 
-1. Hased Strings (md5, sha1, sha1, etc...)
+1. Hashed Strings (md5, sha1, sha1, etc...)
 2. Encoded Strings (Hex, base64, etc...)
 3. Weak Encryption 
 
