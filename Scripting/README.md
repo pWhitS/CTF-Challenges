@@ -18,7 +18,7 @@ I was given an ip address and port number to connect to an application on a remo
 
 <b>Solution:</b>
 
-<i>The script I used to complete the challenge is in this repository: scripting.py</i>
+<i>Script used to solve the challenge: scripting.py</i>
 
 1. The string is base64 encoded. 
 2. The decoded string describes a PNG image that when constructed is a QR code.
