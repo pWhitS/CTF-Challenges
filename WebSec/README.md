@@ -11,7 +11,7 @@ I was given a link to a website. When visiting the website there was a button at
 2. XSS (Session/cookie hijacking)
 3. CSRF  
 4. SQL Injection. 
-	(A) Steal key from the database
+	(A) Steal key from the database or
 	(B) Steal admin creditials from the database
 5. Proxy everything through Burp Suit
 
