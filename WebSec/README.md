@@ -26,7 +26,7 @@ I was given a link to a website. When visiting the website there was a button at
 
 <i>File on my server: post.php</i>
 
-<i>XSS attacks: xss.js</i>
+<i>XSS attacks and responses: xss.js</i>
 
 1. I created a PHP file to capture the headers and body of a post request and uploaded this to my server.
 2. (xxs.js 1) I then used XSS to modity the key generation form's action to send its POST to my PHP file on my server. Then the XSS submitted the form. Now I had the entire request stored in a file.
