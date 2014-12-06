@@ -16,6 +16,10 @@ I was given an ip address and port number to connect to an application on a remo
 2. Encoded Strings (Hex, base64, etc...)
 3. Weak Encryption 
 
+<b>Dead Ends: </b>
+
+1. After decoding the first string the application sends another encoded string. I didn't realise this at first and thought I was failing to decode the string correctly. 
+
 <b>Solution:</b>
 
 <i>Script used to solve the challenge: scripting.py</i>
@@ -23,7 +27,7 @@ I was given an ip address and port number to connect to an application on a remo
 1. The string is base64 encoded. 
 2. The decoded string describes a PNG image that when constructed is a QR code.
 3. The pyqrcode library was downloaded and included in the scrupt to decode the QR codes. After decoding it was an 32 byte string. 
-4. Sending this string to the application caused it to give you another encode string.
+4. Sending this string to the application caused it to send another encoded string.
 5. Continue the process of decoding the base64 string, turning it into a QR code PNG, decoding the QR code, and sending the result to the application.
 6. After solving some number of challenges, the application sends the CTF key.
 
