@@ -10,9 +10,9 @@ I was given a link to a website. When visiting the website there was a button at
 1. Ask the admin nicely for the key
 2. XSS (Session/cookie hijacking)
 3. CSRF  
-4. SQL Injection 
-	A. Steal key from the database
-	B. Steal admin creditials from the database
+4. SQL Injection. 
+	(A) Steal key from the database
+	(B) Steal admin creditials from the database
 5. Proxy everything through Burp Suit
 
 <b>Dead Ends: </b>
